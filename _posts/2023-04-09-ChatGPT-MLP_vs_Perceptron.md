@@ -1,3 +1,9 @@
+---
+layout: custom-post
+title: 机器学习
+date: 2023-04-09
+---
+
 # MLP vs Perceptron.
 
 ## 多层感知机与感知机在网络上有什么区别？
