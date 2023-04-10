@@ -31,7 +31,7 @@ github_username:  14790897
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
