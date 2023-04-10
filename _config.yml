@@ -30,8 +30,8 @@ twitter_username: hahfrank
 github_username:  14790897
 
 # Build settings
-theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
