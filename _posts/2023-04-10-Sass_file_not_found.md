@@ -19,7 +19,7 @@ Run in verbose mode to see all warnings.
 ## 我明明有/assets/css/custom.scss这个文件，为什么没有找到呢？
 
 
-#### ### 让我们看看引用路径是否之前，以下是错误示范
+#### 首先让我们看看引用路径是否正确，以下是错误示范
 <link rel="stylesheet" href="{{ '/assets/css/custom.scss' | relative_url }}">
 
 这是一个HTML代码片段，它使用Jekyll的Liquid模板引擎将`custom.scss`文件引入到您的`custom-post.html`模板中。让我们逐行分析：
