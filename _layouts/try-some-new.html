@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle CSS Animation</title>
+  <style>
+    .animated {
+      animation: spin 3s infinite linear;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <button onclick="toggleAnimation()">切换动画效果</button>
+  <div id="animatedElement" class="animated">这是一个旋转的元素</div>
+
+  <script>
+    let animationEnabled = true;
+
+    function toggleAnimation() {
+      const animatedElement = document.getElementById('animatedElement');
+
+      if (animationEnabled) {
+        animatedElement.classList.remove('animated');
+      } else {
+        animatedElement.classList.add('animated');
+      }
+
+      animationEnabled = !animationEnabled;
+    }
+  </script>
+</body>
+</html>
