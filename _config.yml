@@ -40,6 +40,9 @@ plugins:
 
 sass:
   sass_dir: assets/css
+  
+repository: 14790897/14790897.github.io
+
 
 
 # Exclude from processing.
