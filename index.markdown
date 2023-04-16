@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Hello! I'm WeiQing Liu, a software developer and technology enthusiast. On this blog, I share my thoughts, experiences, and tutorials about programming, web development, and more.
