@@ -43,6 +43,19 @@ sass:
   
 repository: 14790897/14790897.github.io
 
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+
+sidebar_nav:
+  docs:
+    - title: "免费chatgpt"
+      url: liuweiqing.top
+    - title: "Section 2"
+      url: /section-2/
+
 
 
 # Exclude from processing.
